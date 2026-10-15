@@ -248,9 +248,9 @@ cells, and the Open Acoustic Devices
 LED for each second it hears birdsong**. It does not yet write gated audio to the
 card; that is the next firmware step.
 
-1. **Get the firmware.** Download `birdgate-mfcc-dev.bin` from the latest
-   [release](https://github.com/donora/BirdGate/releases), or build it with
-   `./firmware/build.sh mfcc-dev`. Building needs the
+1. **Build the firmware** with `./firmware/build.sh mfcc-dev`, which writes
+   `firmware/out/birdgate-mfcc-dev.bin`. No prebuilt binary is published while
+   the firmware is in development. Building needs the
    `gcc-arm-none-eabi-10.3-2021.10` toolchain and two upstream clones;
    [firmware/README.md](firmware/README.md) has the details, including the
    C-against-Python parity test to run before flashing.

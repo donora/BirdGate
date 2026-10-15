@@ -239,9 +239,8 @@ Unchanged from `docs/lab-notebook.md` G7: collect, re-fit training set and thres
       citation and the changes.
 - [x] **Runs from a fresh clone.** `demo/` (12 MB) stands in for the audio and the
       feature cache; `scripts/build_demo.py` rebuilds it.
-- [ ] **Public v1.0.0.** A fresh public repository without the working history, a
-      tour (`TOUR.md`), and the detector `.bin` as a release asset, labelled as not
-      recording to the card.
+- [ ] **Public v1.0.0.** A fresh public repository without the working history and
+      a tour (`TOUR.md`). Source only: no prebuilt firmware binary is published yet.
 
 ---
 

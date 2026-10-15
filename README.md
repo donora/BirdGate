@@ -121,9 +121,9 @@ unzipped folder, and:
 
 You need an AudioMoth 1.x, the Open Acoustic Devices
 [Flash and Configuration apps](https://www.openacousticdevices.info/applications),
-and, to build from source, `gcc-arm-none-eabi-10.3-2021.10`. Each release carries
-a prebuilt detector `.bin`. **It lights the green LED on birdsong and does not
-record to the card yet.** Building, flashing, the host parity test and bench
+and the `gcc-arm-none-eabi-10.3-2021.10` toolchain to build the firmware from
+source; no prebuilt binary is published. The current build is a detector: **it
+lights the green LED on birdsong and does not record to the card yet.** Building, flashing, the host parity test and bench
 testing are in [firmware/README.md](firmware/README.md); the walkthrough is the
 last chapter of the [tour](TOUR.md).
 
