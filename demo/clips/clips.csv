@@ -1,0 +1,9 @@
+clip,filename,start_s,end_s,why
+SNE_021_20180523_080004_1480.flac,SNE_021_20180523_080004.flac,1480.0,1510.0,"dawn chorus, the most species at once"
+SNE_032_20180529_170000_0260.flac,SNE_032_20180529_170000.flac,260.0,290.0,the busiest evening stretch
+SNE_032_20180529_170000_3315.flac,SNE_032_20180529_170000.flac,3315.0,3345.0,"true silence: no birds, and the lowest scores"
+SNE_012_20180510_080004_1455.flac,SNE_012_20180510_080004.flac,1455.0,1485.0,"no birds, but the highest score: what fools the gate"
+SNE_032_20180529_170000_3215.flac,SNE_032_20180529_170000.flac,3215.0,3245.0,one short call the model nearly misses
+SNE_004_20180509_080004_0880.flac,SNE_004_20180509_080004.flac,880.0,910.0,covers common species the others miss
+SNE_021_20180523_080004_0555.flac,SNE_021_20180523_080004.flac,555.0,585.0,covers common species the others miss
+SNE_012_20180510_080004_0955.flac,SNE_012_20180510_080004.flac,955.0,985.0,covers common species the others miss

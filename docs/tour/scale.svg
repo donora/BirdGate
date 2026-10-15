@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 250" width="1000" height="250" role="img" aria-label="Model sizes on a log scale: BirdGate models against BirdNET and Perch"><title>Model sizes on a log scale: BirdGate models against BirdNET and Perch</title>
+<style>
+  .bg { fill: #fcfcfb; }
+  .ink { fill: #0b0b0b; }
+  .ink2 { fill: #52514e; }
+  .ink3 { fill: #8a8984; }
+  .line { stroke: #c9c8c3; }
+  .box { fill: #ffffff; stroke: #c9c8c3; }
+  .acc { fill: #1baf7a; }
+  .accs { stroke: #1baf7a; }
+  .acct { fill: #0e7a54; }
+  .accbg { fill: #e6f6ef; stroke: #1baf7a; }
+  .mute { fill: #b9b8b2; }
+  .limit { stroke: #e34948; }
+  .limitt { fill: #c23a39; }
+  text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+  .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+  @media (prefers-color-scheme: dark) {
+    .bg { fill: #1a1a19; }
+    .ink { fill: #f0efec; }
+    .ink2 { fill: #c3c2b7; }
+    .ink3 { fill: #8f8e86; }
+    .line { stroke: #4a4945; }
+    .box { fill: #232322; stroke: #4a4945; }
+    .acc { fill: #199e70; }
+    .accs { stroke: #199e70; }
+    .acct { fill: #4cc99a; }
+    .accbg { fill: #17352a; stroke: #199e70; }
+    .mute { fill: #5e5d58; }
+    .limit { stroke: #e66767; }
+    .limitt { fill: #e66767; }
+  }
+</style><rect class="bg" width="1000" height="250" rx="12"/><text x="20" y="34" class="ink" font-size="17" text-anchor="start" font-weight="600">How big is the model?</text><text x="980" y="34" class="ink2" font-size="13" text-anchor="end" font-weight="400">file size, log scale</text><rect class="accbg" x="40" y="80" width="449.29381831364697" height="70" rx="6" stroke-width="0" opacity="0.6"/><text x="48" y="96" class="acct" font-size="12" text-anchor="start" font-weight="600">fits on an AudioMoth</text><line class="limit" x1="370.6019914518486" y1="80" x2="370.6019914518486" y2="156" stroke-width="1.5" stroke-dasharray="4 3"/><line class="limit" x1="489.29381831364697" y1="80" x2="489.29381831364697" y2="156" stroke-width="1.5" stroke-dasharray="4 3"/><text x="495.29381831364697" y="96" class="limitt" font-size="11.5" text-anchor="start" font-weight="400">256 KB flash</text><text x="364.6019914518486" y="96" class="limitt" font-size="11.5" text-anchor="end" font-weight="400">32 KB RAM</text><line class="line" x1="40" y1="150" x2="960" y2="150" stroke-width="1.5"/><line class="line" x1="40.0" y1="150" x2="40.0" y2="155" stroke-width="1"/><text x="40.0" y="172" class="ink3" font-size="11.5" text-anchor="middle" font-weight="400">100 B</text><line class="line" x1="171.42857142857142" y1="150" x2="171.42857142857142" y2="155" stroke-width="1"/><text x="171.42857142857142" y="172" class="ink3" font-size="11.5" text-anchor="middle" font-weight="400">1 KB</text><line class="line" x1="302.85714285714283" y1="150" x2="302.85714285714283" y2="155" stroke-width="1"/><text x="302.85714285714283" y="172" class="ink3" font-size="11.5" text-anchor="middle" font-weight="400">10 KB</text><line class="line" x1="434.2857142857143" y1="150" x2="434.2857142857143" y2="155" stroke-width="1"/><text x="434.2857142857143" y="172" class="ink3" font-size="11.5" text-anchor="middle" font-weight="400">100 KB</text><line class="line" x1="565.7142857142857" y1="150" x2="565.7142857142857" y2="155" stroke-width="1"/><text x="565.7142857142857" y="172" class="ink3" font-size="11.5" text-anchor="middle" font-weight="400">1 MB</text><line class="line" x1="697.1428571428571" y1="150" x2="697.1428571428571" y2="155" stroke-width="1"/><text x="697.1428571428571" y="172" class="ink3" font-size="11.5" text-anchor="middle" font-weight="400">10 MB</text><line class="line" x1="828.5714285714286" y1="150" x2="828.5714285714286" y2="155" stroke-width="1"/><text x="828.5714285714286" y="172" class="ink3" font-size="11.5" text-anchor="middle" font-weight="400">100 MB</text><line class="line" x1="960.0" y1="150" x2="960.0" y2="155" stroke-width="1"/><text x="960.0" y="172" class="ink3" font-size="11.5" text-anchor="middle" font-weight="400">1 GB</text><circle class="acc" cx="69.61207702682769" cy="150" r="7"/><text x="57.61207702682769" y="198" class="ink" font-size="12.5" text-anchor="start" font-weight="600">MFCC, bandpass, cochlea</text><text x="57.61207702682769" y="215" class="ink2 mono" font-size="11.5" text-anchor="start" font-weight="400">164–172 B</text><circle class="acc" cx="272.40093930506066" cy="150" r="7"/><text x="272.40093930506066" y="198" class="ink" font-size="12.5" text-anchor="middle" font-weight="600">Tiny CNN</text><text x="272.40093930506066" y="215" class="ink2 mono" font-size="11.5" text-anchor="middle" font-weight="400">5,865 B</text><circle class="mute" cx="787.8543419466047" cy="150" r="7"/><text x="787.8543419466047" y="198" class="ink" font-size="12.5" text-anchor="middle" font-weight="600">BirdNET 2.4</text><text x="787.8543419466047" y="215" class="ink2 mono" font-size="11.5" text-anchor="middle" font-weight="400">49 MB</text><circle class="mute" cx="906.2542054949114" cy="150" r="7"/><text x="906.2542054949114" y="198" class="ink" font-size="12.5" text-anchor="middle" font-weight="600">Perch v2</text><text x="906.2542054949114" y="215" class="ink2 mono" font-size="11.5" text-anchor="middle" font-weight="400">390 MB</text><text x="20" y="238" class="ink2" font-size="12.5" text-anchor="start" font-weight="400">The big models identify hundreds of species on a server. The gate answers one question on the recorder, in about a two-millionth of Perch's size.</text></svg>

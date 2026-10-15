@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "birdgate"
+version = "0.1.0"
+description = "An always-on birdsong gate for the AudioMoth: record only when a bird is singing."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.0",
+    "scipy>=1.14",
+    "pandas>=2.2",
+    "scikit-learn>=1.5",
+    "librosa>=0.10",
+    "soundfile>=0.12",
+]
+
+[project.optional-dependencies]
+cnn = ["torch>=2.4"]
+app = ["streamlit>=1.40", "matplotlib>=3.9"]
+dev = ["pytest>=8"]
+
+[tool.setuptools.packages.find]
+include = ["birdgate*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+# So `pytest` works the same as `python -m pytest`, and in a clone where the package
+# has not been installed. Without it only the latter puts the project root on the
+# import path, and `from birdgate import ...` fails at collection.
+pythonpath = ["."]

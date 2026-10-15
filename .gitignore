@@ -1,0 +1,13 @@
+cache/
+runs/
+data/audio
+*.wav
+*.bin
+__pycache__/
+AM_Software/
+firmware/out/
+.pytest_cache/
+*.egg-info/
+scripts/tour/node_modules/
+scripts/tour/raw/
+.DS_Store
